@@ -8,8 +8,6 @@ import Details from "./components/Details";
 import Cart from "./components/cart/Cart";
 import Default from "./components/Default";
 import Modal from "./components/Modal";
-import Footer from "./components/Footer";
-
 
 
 function App() {
@@ -23,8 +21,6 @@ function App() {
         <Route  component={Default} />
       </Switch>
       <Modal /> 
-      <br/>
-      <Footer />
     </div>
 );
 }
